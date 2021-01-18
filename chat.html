@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="styles.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat-screen</title>
+    <script
+      src="https://kit.fontawesome.com/b14d80a8b5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="chat-body">
+    <div class="status-bar chat-status-bar">
+      <div class="status-bar__column">
+        <span>No service</span> <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column"><span>18:43</span></div>
+      <div class="status-bar__column">
+        <i class="fas fa-lock"></i>
+        <span>96%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <div class="chat-header">
+      <a href="chats.html">
+        <div class="chat-header__box">
+          <i class="fas fa-chevron-left fa-2x"></i>
+        </div>
+      </a>
+      <div class="chat-header__box">
+        <span class="chat-header__box-title">Hyuckjoo</span>
+      </div>
+      <div class="chat-header__box">
+        <span class="chat-header__box-icon"
+          ><i class="fas fa-search fa-2x"></i
+        ></span>
+        <span class="chat-header__box-icon"
+          ><i class="fas fa-bars fa-2x"></i
+        ></span>
+      </div>
+    </div>
+
+    <div class="today-box">
+      <div class="today-box__title">Tuesday, January 14, 2021</div>
+    </div>
+
+    <div class="chat-you">
+      <div class="chat-you__avatar">
+        <img class="chat-you__avatar-pic" src="pictures/purple1.jpg" />
+        <div class="chat-you__text">
+          <span class="chat-you__avatar-name">Hyuckjoo</span>
+          <div class="chat-you__chat-box">
+            <div class="chat-you__chatting">What's up?</div>
+            <span class="chat-you__avatar-sub">21:27</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="chat-you chat-me">
+      <div class="chat-you__text">
+        <div class="chat-you__chat-box chat-me__chat-box">
+          <div class="chat-me__chatting">Long time no see</div>
+          <span class="chat-me__avatar-sub">21:28</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="input-boxs">
+      <div class="input-box">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="input-box">
+        <form class="input-box__form">
+          <input class="input-box__input" />
+          <div class="input-box__icon-loc">
+            <span class="smile-location"
+              ><i class="far fa-smile-wink fa-lg"></i
+            ></span>
+            <button class="up-button">
+              <i class="fas fa-arrow-up fa-lg"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="no-mobile">
+      <span>😭 Your screen is too big 😭</span>
+    </div>
+  </body>
+</html>

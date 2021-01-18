@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="styles.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find-screen</title>
+    <script
+      src="https://kit.fontawesome.com/b14d80a8b5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span> <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column"><span>18:43</span></div>
+      <div class="status-bar__column">
+        <i class="fas fa-lock"></i>
+        <span>96%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <div class="friends-interface">
+      <div class="friends-interface__1">
+        <header class="friends-interface__title">Find</header>
+      </div>
+      <div class="friends-interface__2">
+        <i class="fas fa-search fa-lg"></i>
+        <i class="fas fa-cog fa-lg"> <div class="mini-red-dot"></div></i>
+      </div>
+    </div>
+
+    <main class="screen-margin">
+      <div class="icons-row">
+        <div class="icons-row__column">
+          <i class="fas fa-qrcode"></i><span>QR Code</span>
+        </div>
+        <div class="icons-row__column">
+          <i class="far fa-address-book"></i><span>Add by Contacts</span>
+        </div>
+        <div class="icons-row__column">
+          <i class="fas fa-fingerprint"></i><span>Add by ID</span>
+        </div>
+        <div class="icons-row__column">
+          <i class="far fa-envelope"></i><span>Invite</span>
+        </div>
+      </div>
+      <div class="find-recommended">
+        <span class="find-recommended__text1">Recommended Friends</span>
+        <span class="find-recommended__text2"
+          >You have no recommeded friends.</span
+        >
+      </div>
+      <div class="find-open-chat">
+        <span class="find-open-chat__header">Open Chat</span>
+        <span class="find-open-chat__right"
+          >Go to Openchat Home <i class="fas fa-chevron-right"></i
+        ></span>
+      </div>
+      <div class="find-bts">
+        <div class="find-bts-box1">
+          <span class="fond-bts-box1__title">#BTS</span>
+          <span class="fond-bts-box1__tags">#bts#army#friends</span>
+          <div class="fond-bts-box1__count">
+            <img class="bts-mini" src="pictures/purple3.jpg" />
+            <span class="fond-bts-box1__count-members">802 members</span>
+            <div class="bts-bar"></div>
+            <span class="bts-last-title">Active</span>
+          </div>
+        </div>
+        <div class="find-bts-box2">
+          <div class="find-bts-box2__pic">
+            <img class="bts-picture" src="pictures/purple3.jpg" />
+            <div class="bts-picture__count">
+              <span><i class="fas fa-heart fa-xs"></i> 326</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav-bar">
+        <li class="nav-bar__btn">
+          <a class="nav-bar__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav-bar__btn">
+          <a class="nav-bar__link" href="chats.html"
+            ><i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav-bar__btn">
+          <a class="nav-bar__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav-bar__btn">
+          <a class="nav-bar__link" href="more.html"
+            ><i class="fas fa-ellipsis-h fa-2x"
+              ><div class="nav-bar__link-pop2"></div></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>😭 Your screen is too big 😭</span>
+    </div>
+  </body>
+</html>

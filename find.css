@@ -1,0 +1,112 @@
+.find-recommended {
+  margin-top: 18px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.find-recommended__text1 {
+  padding-top: 20px;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600px;
+  font-size: 18px;
+}
+.find-recommended__text2 {
+  margin-top: 60px;
+  margin-bottom: 110px;
+  text-align: center;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+}
+.find-open-chat__header {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+}
+.find-open-chat {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: 600;
+  margin-top: 15px;
+}
+.bts-mini {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+.find-bts-box1 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.bts-bar {
+  width: 1px;
+  height: 14px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0px 8px;
+}
+.bts-last-title {
+  color: #ff74c9;
+  font-size: 18px;
+}
+.fond-bts-box1__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.fond-bts-box1__tags {
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 4px;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+.fond-bts-box1__count {
+  display: flex;
+  align-items: center;
+}
+.fond-bts-box1__count-members {
+  font-size: 18px;
+  opacity: 0.6;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+.find-bts {
+  display: flex;
+  justify-content: space-between;
+}
+.bts-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+.find-bts-box2 {
+  margin-top: 20px;
+}
+.find-account {
+  margin-top: 23px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+.bts-picture__count {
+  width: 60px;
+  height: 23px;
+  background-color: black;
+  opacity: 0.7;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  bottom: 15px;
+  left: 55px;
+}
+.find-bts-box2__pic {
+  position: relative;
+}

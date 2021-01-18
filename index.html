@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="styles.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to purpletalk</title>
+    <script
+      src="https://kit.fontawesome.com/b14d80a8b5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="status-bar status-bar-welcome">
+      <div class="status-bar__column">
+        <span>No service</span> <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column"><span>11:11</span></div>
+      <div class="status-bar__column">
+        <i class="fas fa-lock"></i>
+        <span>96%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <div class="welcome">
+      <header class="welcome__text1">Welcome to PurpleTalk</header>
+      <span class="welcome__text2">
+        If you have a Account,<br />
+        log in with your email or phone number.</span
+      >
+    </div>
+    <div class="account">
+      <form class="account-form">
+        <input
+          class="account-form__id"
+          type="text"
+          placeholder="Email or Phone number"
+          requried
+        />
+        <input
+          class="account-form__id"
+          type="password"
+          placeholder="Password"
+          minlength="8"
+          required
+        />
+
+        <form>
+          <a href="friends.html">
+            <input class="account-form__sm" type="button" value="Log in" />
+          </a>
+        </form>
+      </form>
+    </div>
+    <div class="find-account">
+      <span>Find Account or Password</span>
+    </div>
+    <div id="no-mobile">
+      <span>😭 Your screen is too big 😭</span>
+    </div>
+  </body>
+</html>

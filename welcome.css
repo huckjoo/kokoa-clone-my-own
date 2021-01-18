@@ -1,0 +1,15 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 76px;
+  margin-bottom: 82px;
+}
+.welcome__text1 {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+.welcome__text2 {
+  font-size: 20px;
+  color: rgb(221, 153, 221);
+}

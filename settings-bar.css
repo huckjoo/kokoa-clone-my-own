@@ -1,0 +1,46 @@
+.settings-bar {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.settings-bar h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+.settings__first-box {
+  font-size: 25px;
+}
+.settings-unodered-box {
+  padding-left: 20px;
+}
+.screen-margin li {
+  margin-bottom: 40px;
+}
+.settings__first-box i {
+  margin-right: 10px;
+}
+.settings__second-box span {
+  font-size: 25px;
+  opacity: 0.5;
+  color: rgb(219, 115, 219);
+}
+.settings__whole-box {
+  display: flex;
+  justify-content: space-between;
+}
+.settings__whole-box i {
+  color: rgb(221, 153, 221);
+}
+
+.practice {
+  border: 1px solid tomato;
+  width: 110px;
+  height: 110px;
+}
+.practice-1 {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}

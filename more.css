@@ -1,0 +1,45 @@
+.suggestions-bar__title {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.suggestions-bar__icon-pic {
+  background-color: rgb(221, 153, 221);
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.suggestions-bar__icon-pic i {
+  font-size: 28px;
+  color: white;
+}
+.suggestions-bar__icon {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.suggestions-bar__icons {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-around;
+}
+.opacity1 {
+  opacity: 0.7;
+}
+@keyframes cogSpin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.friends-interface__2 .fa-cog:hover {
+  animation: cogSpin 1s linear infinite;
+}
